@@ -1,0 +1,15 @@
+server:
+  port: 8030
+
+
+
+spring:
+  data:
+    mongodb:
+      database: data
+      host: localhost
+      port: 27017
+  cloud:
+    config:
+      uri: http://localhost:8765
+     
