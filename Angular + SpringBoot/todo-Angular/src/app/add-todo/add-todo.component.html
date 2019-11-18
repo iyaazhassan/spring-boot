@@ -1,0 +1,17 @@
+<div class="col-md-6">
+    <h2 class="text-center">Add Todo</h2>
+    <form>
+      <div class="form-group">
+        <label for="desc">Description:</label>
+        <input type="text" [(ngModel)]="todo.description" placeholder="Todo Description" name="desc" class="form-control" id="desc">
+      </div>
+
+      <div class="form-group">
+        <label for="status">Completed:</label>
+        <input type="text" [(ngModel)]="todo.completed" placeholder="Todo Status" name="status" class="form-control" id="status">
+      </div>
+    
+      
+      <button class="btn btn-success" (click)="createTodo()">Add</button>
+    </form>
+    </div>
